@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+    background-color: #282c34;
+    max-width: 155px;
+    border-radius: 1.2em ;
+    border-width: 1.2em;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 4px;
+    color: aliceblue;
+    box-shadow: 1px 2px rgb(134, 195, 255);
+}
+
+ul li:hover{
+    box-shadow: 1px 2px #61dafb;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    gap: 1.15em;
+}

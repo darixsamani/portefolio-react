@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cath-of-the-day{
+  display: flex;
+  flex-direction: row;
+
+}
+.menu{
+  width: 33.333333333333333%;
+  height: 700px;
+  background-color: silver;
+  border: 1px solid black;
+}
+.menu p{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.tagline{
+  text-underline-position: below;
+  text-underline-offset:initial;
+}

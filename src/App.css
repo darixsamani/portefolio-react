@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 350px auto;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  grid-template-areas: "main boby";
+  font-weight: 800;
+  text-align: center;
+  color: #004d;
+  gap: 0.2rem;
+}
+
+.main{
+  grid-area: main;
+  background-color: #61dafb;
+
+}
+
+.boby{
+  grid-area: boby;
+  background-color: aqua;
+}
+
+@media (max-width:550px){
+
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr auto;
+    grid-template-areas: "main"
+    "boby";
+  }
+
+}
