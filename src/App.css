@@ -43,10 +43,8 @@
   grid-template-rows: 1fr;
   height: 100vh;
   grid-template-areas: "main boby";
-  font-weight: 800;
-  text-align: center;
   color: #004d;
-  gap: 0.2rem;
+  gap: 0.1rem;
 }
 
 .main{

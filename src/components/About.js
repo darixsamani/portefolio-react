@@ -1,6 +1,7 @@
 import React from 'react';
 import Profil from './images/profil.png';
-import list_tools from './list_tools';
+
+
 function About(){
     return (
         <div>
@@ -18,10 +19,13 @@ function About(){
 
 function Tools(){
     
+    const list_tools = ['Reacts','Flutter','HTML5','CSS3','JavaScripts','C/C++','Dart','Pharo','Docker','GNS3','Python','Django','Flask','Numpy','Scipy','Tensorflow','Matplotlib','Pandas']
+
+    const tool = list_tools.map((t)=>(<li key={t.toString}>{t}</li>))
     return (
-        <div>
+        <div className="tools">
             <ul>
-                list_tools.map
+                {tool}
             </ul>
         </div>
     );
