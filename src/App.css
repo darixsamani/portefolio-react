@@ -1,31 +1,12 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+:root {
+    --dark-color: #333333;
+    --light-color: #ffffff;
+    --gray-color: #edeee9;
+    --blue: #2f80ed;
+    --shadow: 0 0 2px rgba(51, 51, 51, 0.25);
+    --font-family: 'Source Sans Pro', sans-serif;
+    --grid-width: 1200px;
+    --medium-text: 18px;
 }
 
 @keyframes App-logo-spin {
@@ -39,32 +20,21 @@
 
 .container{
   display: grid;
-  grid-template-columns: 350px auto;
-  grid-template-rows: 1fr;
-  height: 100vh;
-  grid-template-areas: "main boby";
-  color: #004d;
-  gap: 0.1rem;
+  grid-template-columns:  250px auto;
+  grid-template-areas: "m  b";
+  gap: 1rem;
+  height: 100vmin;
+  font-family: var(--font-family);
+  font-size: var(--medium-text);
 }
 
 .main{
-  grid-area: main;
-  background-color: #61dafb;
+  grid-area: m;
+  background-color: aqua;
 
 }
 
 .boby{
-  grid-area: boby;
-  background-color: aqua;
-}
-
-@media (max-width:550px){
-
-  .container{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.25fr auto;
-    grid-template-areas: "main"
-    "boby";
-  }
-
+  grid-area: b;
+  background-color: rgb(0, 128, 128,0.7)
 }

@@ -4,8 +4,10 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Home from './components/Home';
 import Headers from './components/Headers';
-import Publications from './components/Publications'
-import './App.css'
+import Publications from './components/Publications';
+import './App.css';
+
+
 function App(){
   return(
     <div className="container">

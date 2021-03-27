@@ -1,14 +1,27 @@
 import React from 'react';
 import Profil from './images/profil.png';
-
+import './About.css';
 
 function About(){
     return (
-        <div>
-            <img src={Profil} width="300px" alt="profil"/>
-            <div>
-                <h1> Darix SAMANI SIEWE</h1>
-                <h3> INGERIEUR EN RESEAU ET TELECOMMUNICATION</h3>
+        <div className="about-main">
+            <div className="about-head">
+                <div>
+                    <img src={Profil} width="200px" alt="profil"/>
+                </div>
+                <div>
+                    <h2> Darix SAMANI SIEWE</h2>
+                    <span> INGERIEUR EN RESEAU ET TELECOMMUNICATION</span>
+                </div>
+            </div>
+            <div className="about-pre">
+                <p>
+                    n'import quoi ici juste pour le fun. n'import quoi ici juste pour le fun
+                    n'import quoi ici juste pour le fun
+                    n'import quoi ici juste pour le fun n'import quoi ici juste pour le fun.n'import quoi ici juste pour le funn'import quoi ici juste pour le funn'import quoi ici juste pour le fun
+                    n'import quoi ici juste pour le funn'import quoi ici juste pour le funn'import quoi ici juste pour le fun
+
+                </p>
             </div>
             <div>
                 <Tools />
