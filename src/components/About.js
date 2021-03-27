@@ -23,24 +23,80 @@ function About(){
 
                 </p>
             </div>
+            <div className='tools'>
+                <div>
+                    <h2>Front End </h2>
+                    <ul>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Front End </h2>
+                    <ul>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Front End </h2>
+                    <ul>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Front End </h2>
+                    <ul>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                        <li>React.Js</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>Javascripts</li>
+                    </ul>
+                </div>
+
+            </div>
             <div>
-                <Tools />
+                <div class="loader">Chargement...</div>
+                {/* <Tools /> */}
             </div>
         </div>
     );
 }
 
-function Tools(){
+// function Tools(){
     
-    const list_tools = ['Reacts','Flutter','HTML5','CSS3','JavaScripts','C/C++','Dart','Pharo','Docker','GNS3','Python','Django','Flask','Numpy','Scipy','Tensorflow','Matplotlib','Pandas']
+//     const list_tools = ['Reacts','Flutter','HTML5','CSS3','JavaScripts','C/C++','Dart','Pharo','Docker','GNS3','Python','Django','Flask','Numpy','Scipy','Tensorflow','Matplotlib','Pandas']
 
-    const tool = list_tools.map((t)=>(<li key={t.toString}>{t}</li>))
-    return (
-        <div className="tools">
-            <ul>
-                {tool}
-            </ul>
-        </div>
-    );
-}
+//     const tool = list_tools.map((t)=>(<li key={t.toString}>{t}</li>))
+//     return (
+//         <div className="tools">
+//             <ul>
+//                 {tool}
+//             </ul>
+//         </div>
+//     );
+// }
 export default About;

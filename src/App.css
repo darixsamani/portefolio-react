@@ -19,22 +19,22 @@
 }
 
 .container{
-  display: grid;
+  /* display: grid;
   grid-template-columns:  250px auto;
   grid-template-areas: "m  b";
   gap: 1rem;
-  height: 100vmin;
+  height: 100vmin; */
   font-family: var(--font-family);
   font-size: var(--medium-text);
 }
 
 .main{
-  grid-area: m;
+  /* grid-area: m; */
   background-color: aqua;
 
 }
 
 .boby{
-  grid-area: b;
+  /* grid-area: b; */
   background-color: rgb(0, 128, 128,0.7)
 }

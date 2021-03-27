@@ -1,20 +1,47 @@
 
-
-nav ul{
-    list-style: none;
-
+head{
+    position: sticky;
+    top: 1em;
 }
 
-nav.nav-desktop ul{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-self: center;
-    gap: 1.5rem;
+.navigation {
+    
+list-style: none;
+padding: 0;
+margin: 0;
+background: deepskyblue;
+}
+.navigation a {
+display: block;
+padding: 1em;
+text-decoration: none;
+text-align: center;
 }
 
-a{
-    text-decoration: none;
+.navigation {
+display: flex; /* 1 */
+flex-flow: row wrap; /* 2 */
+justify-content: flex-end; /* 3 */
+}
+/* Écrans moyens */
+@media (max-width: 800px) {
+.navigation {
+justify-content: center; /* 4 */
+}
+}
+/* Petits écrans */
+@media (max-width: 450px) {
+.navigation {
+flex-flow: column wrap; /* 5 */
+}
+}
+
+.navigation {
+opacity: .5;
+transition: opacity 5s;
+}
+.navigation:hover,
+.navigation:focus {
+opacity: 1;
+transition: opacity 300ms;
 }
