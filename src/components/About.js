@@ -11,73 +11,72 @@ function About(){
                 </div>
                 <div>
                     <h2> Darix SAMANI SIEWE</h2>
-                    <span> INGERIEUR EN RESEAU ET TELECOMMUNICATION</span>
+                    <em> INGERIEUR EN RESEAU ET TELECOMMUNICATION</em>
                 </div>
             </div>
-            <div className="about-pre">
-                <p>
-                    n'import quoi ici juste pour le fun. n'import quoi ici juste pour le fun
-                    n'import quoi ici juste pour le fun
-                    n'import quoi ici juste pour le fun n'import quoi ici juste pour le fun.n'import quoi ici juste pour le funn'import quoi ici juste pour le funn'import quoi ici juste pour le fun
-                    n'import quoi ici juste pour le funn'import quoi ici juste pour le funn'import quoi ici juste pour le fun
+            <section className="about-pre">
+                <div>
+                    <h2>About Me</h2>
+                </div>
+                <div>
+                    <p>
+                    I am a Computer Scientist who like to create innovative solutions.<br/>
+                    Interested in <b>Data Science</b>, <b>Internet Of Things</b>(IOT), <b>cybersecurity</b>, <b>embedded systems </b>and <b>Software Development</b>
 
-                </p>
-            </div>
-            <div className='tools'>
-                <div>
-                    <h2>Front End </h2>
-                    <ul>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Front End </h2>
-                    <ul>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Front End </h2>
-                    <ul>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Front End </h2>
-                    <ul>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                        <li>React.Js</li>
-                        <li>HTML5</li>
-                        <li>CSS3/SASS</li>
-                        <li>Javascripts</li>
-                    </ul>
-                </div>
+                    </p>
 
-            </div>
+                </div>
+                
+            </section>
+            <section >
+                <div style={{marginTop:"50px"}}> 
+                    <h2>Tools</h2>
+                </div>
+                <div className="tools">
+                    <div >
+                        <h3>Programming Languages </h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Typescript</li>
+                            <li>Golang</li>
+                            <li>Pharo</li>
+                            <li>Dart</li>
+                            <li>C/C++</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Web Frameworks </h3>
+                        <ul>
+                            <li>Django</li>
+                            <li>Express.js</li>
+                            <li>Flask</li>
+                            <li>Spring boot</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3> Databases </h3>
+                        <ul>
+                            <li>PostgreSQL</li>
+                            <li>Mongodb</li>
+                            <li>Redis</li>
+                            <li>Neo4j</li>
+                            <li>Cassandra</li>
+                            <li>BaseX</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3> DevOps </h3>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Shell/Bash/Zsh</li>
+                            <li>Git</li>
+                            <li>Amazon Web Service</li>
+                        </ul>
+                    </div>
+                </div>
+                </section>
+                
             <div>
                 <div class="loader">Chargement...</div>
                 {/* <Tools /> */}

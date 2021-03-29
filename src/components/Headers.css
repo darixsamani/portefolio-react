@@ -9,13 +9,16 @@ head{
 list-style: none;
 padding: 0;
 margin: 0;
-background: deepskyblue;
+color: rgba(0, 0, 0, 0.541);
+background-color: rgba(233, 240, 227, 0.85);
 }
 .navigation a {
 display: block;
 padding: 1em;
 text-decoration: none;
 text-align: center;
+color: rgba(0, 0, 0, 0.767);
+font-weight: 800;
 }
 
 .navigation {
@@ -36,7 +39,7 @@ flex-flow: column wrap; /* 5 */
 }
 }
 
-.navigation {
+/* .navigation {
 opacity: .5;
 transition: opacity 5s;
 }
@@ -44,4 +47,4 @@ transition: opacity 5s;
 .navigation:focus {
 opacity: 1;
 transition: opacity 300ms;
-}
+} */
