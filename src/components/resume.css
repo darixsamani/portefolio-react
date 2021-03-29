@@ -1,0 +1,40 @@
+
+hr{
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 3px;
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 0px 0px 7px rgba(85, 78, 78, 0.85);
+    border-radius: 9px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px rgb(63, 58, 58);
+}
+
+.card li{
+    line-height: 24px;
+}
+
+.container-card{
+    padding: 25px;
+    display: flex;
+    gap: 1.4em;
+    flex-direction: column;
+    font-size: small;
+}
+
+.card-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+.exp-pro{
+    margin: 7px;
+    padding: 10px;
+}
