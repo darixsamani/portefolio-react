@@ -11,14 +11,14 @@ function About(){
                 </div>
                 <div>
                     <h2> Darix SAMANI SIEWE</h2>
-                    <em> INGERIEUR EN RESEAU ET TELECOMMUNICATION</em>
+                    <em> INGENIEUR EN RESEAU ET TELECOMMUNICATION</em>
                 </div>
             </div>
             <section className="about-pre">
                 <div>
                     <h2>About Me</h2>
                 </div>
-                <div>
+                <div className="about-me">
                     <p>
                     I am a Computer Scientist who like to create innovative solutions.<br/>
                     Interested in <b>Data Science</b>, <b>Internet Of Things</b>(IOT), <b>cybersecurity</b>, <b>embedded systems </b>and <b>Software Development</b>

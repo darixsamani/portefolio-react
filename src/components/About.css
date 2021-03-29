@@ -22,15 +22,17 @@
     margin-top: 50px;
     text-align: center;
     font-size: 1em;
-    border: 3px solid rgb(226, 220, 220) ;
-    border: 0px solid white;
+    border: 1px solid white;
+    border-radius: 4px;
     box-shadow: 0px 0px 9px rgba(85, 78, 78, 0.85);
-    width: 70%;
-    background-color: rgba(126, 129, 127, 0.5);
+    width: 92%;
+    background-color: rgba(241, 247, 243, 0.5);
     
 }
 
 .about-pre:hover{
+    box-shadow: 0px 0px 14px rgba(85, 78, 78, 0.9);
+
     animation: mon-animation 750ms ease-in-out 0.1s;
 }
 @keyframes animation-opacity {
@@ -108,4 +110,14 @@ animation: spin 1s linear infinite; /* 7 */
 to {
 transform: rotate(1turn);
 }
+}
+
+.about-me{
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-me p{
+    overflow-wrap: break-word;
+
 }

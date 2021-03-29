@@ -10,7 +10,8 @@ list-style: none;
 padding: 0;
 margin: 0;
 color: rgba(0, 0, 0, 0.541);
-background-color: rgba(233, 240, 227, 0.85);
+background-color: rgba(249, 250, 248, 0.85);
+border-bottom: 2px solid #fefefe;
 }
 .navigation a {
 display: block;
