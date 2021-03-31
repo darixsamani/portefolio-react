@@ -11,7 +11,7 @@ function About(){
                 </div>
                 <div>
                     <h2> Darix SAMANI SIEWE</h2>
-                    <em> INGENIEUR EN RESEAU ET TELECOMMUNICATION</em>
+                    <em> Computer Engineering</em>
                 </div>
             </div>
             <section className="about-pre">
@@ -72,9 +72,78 @@ function About(){
                             <li>Shell/Bash/Zsh</li>
                             <li>Git</li>
                             <li>Amazon Web Service</li>
+                            <li>CI/CD</li>
                         </ul>
                     </div>
                 </div>
+                </section>
+
+                <section style={{marginTop:"50px"}}>
+                    <div style={{marginBottom:"40px"}}>
+                        <h2>WHAT I DO</h2>
+                    </div>
+                    <div className="whatido">
+                        <div className="card-about">
+                            <div>
+
+                            </div>
+                            <div>
+                                <h3>Competive  Programmer</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    I am a Competive Programmer with handles on online judges: Hackerrank, Tryhackme
+                                    .i have recently passed <b>Turing test</b> and <b>Linkedin test</b> in Python Language.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="card-about">
+                            <div>
+
+                            </div>
+                            <div>
+                                <h3>Full Stack Developer</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    I am familiar and experienced in tech stack.
+                                    React.js, Django, Spring boot, Node, Mongodb, PostgreSQL, MySQL, Neo4j etc..
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="card-about">
+                            <div>
+
+                            </div>
+                            <div>
+                                <h3>Data Science</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    I have working experience in Machine Learning, Deep learning(Computer Vision) and Natural Language Processing.
+                                    Check out my work under Project section
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="card-about">
+                            <div>
+
+                            </div>
+                            <div>
+                                <h3>Technical Writer</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    I wrote Technical articles for 
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
                 </section>
                 
             <div>

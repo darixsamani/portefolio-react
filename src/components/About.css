@@ -30,6 +30,29 @@
     
 }
 
+.whatido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.card-about{
+    
+    width: 550px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(153, 212, 104, 0.788);
+    overflow-wrap: break-word;
+    padding: 4px 15px 8px 15px;
+
+}
+
+.card-about p{
+    line-height: 1.65em;
+    word-wrap: break-word;
+}
 .about-pre:hover{
     box-shadow: 0px 0px 14px rgba(85, 78, 78, 0.9);
 
