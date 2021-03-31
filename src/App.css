@@ -30,7 +30,7 @@
 
 .main{
   /* grid-area: m; */
-  background-color: var(--gray-color);
+  background-color: #1e4c7a;
 
 }
 
@@ -41,5 +41,5 @@
 
 h1, h2, h3{
   font-family: var(--font-family);
-  color: var(--dark-color);
+  color: #004180;
 }

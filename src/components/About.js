@@ -15,13 +15,13 @@ function About(){
                 </div>
             </div>
             <section className="about-pre">
-                <div>
-                    <h2>About Me</h2>
+                <div className="titre-about">
+                    <h2 >About Me</h2>
                 </div>
                 <div className="about-me">
                     <p>
                     I am a Computer Scientist who like to create innovative solutions.<br/>
-                    Interested in <b>Data Science</b>, <b>Internet Of Things</b>(IOT), <b>cybersecurity</b>, <b>embedded systems </b>and <b>Software Development</b>
+                    Interested in <b>Data Science</b>, <b>Internet Of Things</b>(IOT), <b>Cybersecurity</b>, <b>Embedded Systems </b> and <b>Software Development</b>
 
                     </p>
 
@@ -30,7 +30,7 @@ function About(){
             </section>
             <section >
                 <div style={{marginTop:"50px"}}> 
-                    <h2>Tools</h2>
+                    <h2>Tools & Technologies</h2>
                 </div>
                 <div className="tools">
                     <div >
