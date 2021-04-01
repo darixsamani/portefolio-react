@@ -128,37 +128,4 @@ function Resume(){
     );
 }
 
-function Experiences_pro(){
-
-    return (
-        
-        <div>
-            <section className="exp-pro">
-                <div>
-                    <h1>Experience Professionnel</h1>
-                </div>
-                <div>
-                    <div className="card">
-                        <div>
-
-                        </div>
-                        <div>
-                            <ul>
-                                <li>Integration HTML5</li>
-                                <li>Redaction du cachier de charge fonctionnel</li>
-                                <li>Developpement template complete site web</li>
-                            </ul>
-                            <span>
-                                Technologies utilisees : React.js, Django, Flutter, Node.js etc...
-                            </span>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </div>
-    );
-}
-
-
 export default Resume;

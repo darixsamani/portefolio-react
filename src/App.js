@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Headers from './components/Headers';
 import Publications from './components/Publications';
 import './App.css';
-
+import Contact from './components/Contact';
 
 function App(){
   return(
@@ -22,6 +22,7 @@ function App(){
             <Route path="/About" component={About} />
             <Route path="/Resume" component={Resume} />
             <Route path="/Publications" component={Publications} />
+            <Route path="/Contact" component={Contact} />
         </div>
         
 
