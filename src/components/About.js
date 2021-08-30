@@ -63,6 +63,7 @@ function About(){
                             <li>Neo4j</li>
                             <li>Cassandra</li>
                             <li>BaseX</li>
+                            <li>SQLite</li>
                         </ul>
                     </div>
                     <div>
@@ -154,17 +155,5 @@ function About(){
     );
 }
 
-// function Tools(){
-    
-//     const list_tools = ['Reacts','Flutter','HTML5','CSS3','JavaScripts','C/C++','Dart','Pharo','Docker','GNS3','Python','Django','Flask','Numpy','Scipy','Tensorflow','Matplotlib','Pandas']
 
-//     const tool = list_tools.map((t)=>(<li key={t.toString}>{t}</li>))
-//     return (
-//         <div className="tools">
-//             <ul>
-//                 {tool}
-//             </ul>
-//         </div>
-//     );
-// }
 export default About;

@@ -26,10 +26,30 @@ code {
 .menu p{
   text-align: center;
   font-weight: bolder;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .tagline{
   text-underline-position: below;
   text-underline-offset:initial;
+}
+
+.header a.active {
+  font-weight: bold;
+  color: rgb(61, 202, 18);
+}
+
+.header{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 1.01em;
+}
+
+.footers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7956;
+  min-height: 100px;
 }

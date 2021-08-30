@@ -7,6 +7,7 @@ import Headers from './components/Headers';
 import Publications from './components/Publications';
 import './App.css';
 import Contact from './components/Contact';
+import Footer from './components/footers';
 
 function App(){
   return(
@@ -27,6 +28,7 @@ function App(){
         
 
       </Switch>
+      <Footer />
 
 
       </Router>
