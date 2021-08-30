@@ -5,7 +5,7 @@ import './Headers.css';
 function Headers(){
     return (
         <div className="head">
-            <nav >
+            <nav className="header">
                 <ul className="navigation" role="navigation">
                     <li><NavLink to="/About">About</NavLink></li>
                     <li><NavLink to="/Resume">Resume</NavLink></li>
