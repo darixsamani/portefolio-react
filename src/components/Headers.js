@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Headers.css';
 
 function Headers(){
@@ -7,11 +7,11 @@ function Headers(){
         <div className="head">
             <nav >
                 <ul className="navigation" role="navigation">
-                    <li><Link to="/About">About</Link></li>
-                    <li><Link to="/Resume">Resume</Link></li>
-                    <li><Link to="/Publications">Publications</Link></li>
-                    <li><Link to="/Projects">Projects</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><NavLink to="/About">About</NavLink></li>
+                    <li><NavLink to="/Resume">Resume</NavLink></li>
+                    <li><NavLink to="/Publications">Publications</NavLink></li>
+                    <li><NavLink to="/Projects">Projects</NavLink></li>
+                    <li><NavLink to="/Contact">Contact</NavLink></li>
                 </ul>
             </nav>
            
