@@ -20,8 +20,8 @@ function About(){
                 </div>
                 <div className="about-me">
                     <p>
-                    I am a Computer Scientist who like to create innovative solutions.<br/>
-                    Interested in <b>Data Science</b>, <b>Internet Of Things</b>(IOT), <b>Cybersecurity</b>, <b>Embedded Systems </b> and <b>Software Development</b>
+                    I am a Computer Engineer who like to create innovative solutions.<br/>
+                    Interested in <b>Data Science</b>, <b>Internet Of Things</b>(IOT), <b>Cybersecurity</b>, <b>Cloud Computing</b>, <b>Embedded Systems </b> and <b>Software Development</b>
 
                     </p>
 
@@ -50,7 +50,7 @@ function About(){
                             <li>Django</li>
                             <li>Express.js</li>
                             <li>Flask</li>
-                            <li>Spring boot</li>
+                            <li>FastAPI</li>
                         </ul>
                     </div>
                     
@@ -74,6 +74,7 @@ function About(){
                             <li>Git</li>
                             <li>Amazon Web Service</li>
                             <li>CI/CD</li>
+                            <li>OpenStack</li>
                         </ul>
                     </div>
                 </div>
