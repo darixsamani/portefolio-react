@@ -11,7 +11,7 @@ function About(){
                 </div>
                 <div>
                     <h2> Darix SAMANI SIEWE</h2>
-                    <em> Computer Engineering</em>
+                    <em> Networks and Telecommunications Engineer  | junior Software Engineer</em>
                 </div>
             </div>
             <section className="about-pre">
@@ -75,6 +75,7 @@ function About(){
                             <li>Amazon Web Service</li>
                             <li>CI/CD</li>
                             <li>OpenStack</li>
+                            <li>Kubernete</li>
                         </ul>
                     </div>
                 </div>
@@ -110,7 +111,7 @@ function About(){
                             <div>
                                 <p>
                                     I am familiar and experienced in tech stack.
-                                    React.js, Django, Spring boot, Node, Mongodb, PostgreSQL, MySQL, Neo4j etc..
+                                    ReactJs, FastAPI, Flutter etc...
                                 </p>
                             </div>
                         </div>

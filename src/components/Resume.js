@@ -13,23 +13,25 @@ function Resume(){
                     <div className="card">
                         <div>
                             <div className="card-head">
-                                <h3>Developer Web & Mobile</h3>
+                                <h3>stage Ingenieur</h3>
                                 <p>Jan 2020 - Mars 2020</p>
                             </div>
                             <div>
-                                <em>Flysoft Enginering | Stage</em>
+                                <em>Astor Digitech | Stage</em>
                             </div>
 
 
                         </div>
                         <div>
                             <ul>
-                                <li>Integration HTML5</li>
-                                <li>Redaction du cachier de charge fonctionnel</li>
-                                <li>Developpement template complete site web</li>
+                                <li>Développement d’une application mobile de drive test des
+réseaux d’opérateurs</li>
+                                <li>Développement d’une API pour collecter les données récupérées
+                                        par l’application mobile</li>
                             </ul>
                             <span>
-                                Technologies utilisees : React.js, Django, Flutter, Node.js etc...
+                                Technologies utilisees : FastAPI , Python , Flutter , MongoDB , SQLite ,
+Heroku , Dart , Reactive programming
                             </span>
                         </div>
 
@@ -42,19 +44,19 @@ function Resume(){
                                 <p>Jan 2020 - Mars 2020</p>
                             </div>
                             <div>
-                                <em>Flysoft Enginering | Stage</em>
+                                <em>Astor Protect | Stage</em>
                             </div>
                             
 
                         </div>
                         <div>
                             <ul>
-                                <li>Integration HTML5</li>
-                                <li>Redaction du cachier de charge fonctionnel</li>
-                                <li>Developpement template complete site web</li>
+                                <li>Étude et déploiement d’un IaaSdevstack</li>
+                                <li>Analyse, modélisation de plusieurs projets de développement</li>
+                                <li>Etude et déploiement de la solution open source de gestion des identités et d’accès(KeyCloack) </li>
                             </ul>
                             <span>
-                                Technologies utilisees : React.js, Django, Flutter, Node.js etc...
+                                Technologies utilisees : KeyCloack, Devstack, management de projet
                             </span>
                         </div>
 
@@ -62,23 +64,22 @@ function Resume(){
                     <div className="card">
                         <div>
                             <div className="card-head">
-                                <h3>Developer Web & Mobile</h3>
-                                <p>Jan 2020 - Mars 2020</p>
+                                <h3>Stagiaire développeur web</h3>
+                                <p>June 2020 - Aug. 2020</p>
                             </div>
                             <div>
                                 <em>Flysoft Enginering | Stage</em>
                             </div>
-                            
-
                         </div>
                         <div>
                             <ul>
-                                <li>Integration HTML5</li>
-                                <li>Redaction du cachier de charge fonctionnel</li>
-                                <li>Developpement template complete site web</li>
+                                <li>Développement des sites en HTML5, CSS3, Javascript</li>
+                                <li>Analyse et Modélisation d’un projet avec UML</li>
+                                <li>Apprentissage de la programmation réactive en dart et le ges-
+tionnaire d’etat Bloc</li>
                             </ul>
                             <span>
-                                Technologies utilisees : React.js, Django, Flutter, Node.js etc...
+                                Technologies utilisees : UML, HTML5, CSS3
                             </span>
                         </div>
 
