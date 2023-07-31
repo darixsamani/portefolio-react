@@ -150,3 +150,10 @@ transform: rotate(1turn);
     overflow-wrap: break-word;
 
 }
+
+.social_network{
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    padding-top: 1em;
+}

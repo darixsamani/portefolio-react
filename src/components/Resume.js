@@ -14,7 +14,7 @@ function Resume(){
                         <div>
                             <div className="card-head">
                                 <h3>stage Ingenieur</h3>
-                                <p>Jan 2020 - Mars 2020</p>
+                                <p>fev 2022 - jun 2022</p>
                             </div>
                             <div>
                                 <em>Astor Digitech | Stage</em>
@@ -40,8 +40,8 @@ Heroku , Dart , Reactive programming
                     <div className="card">
                         <div>
                             <div className="card-head">
-                                <h3>Developer Web & Mobile</h3>
-                                <p>Jan 2020 - Mars 2020</p>
+                                <h3>Stagiaire Ingenieur Projet</h3>
+                                <p>June 2020 - Aug. 2020</p>
                             </div>
                             <div>
                                 <em>Astor Protect | Stage</em>
@@ -51,7 +51,7 @@ Heroku , Dart , Reactive programming
                         </div>
                         <div>
                             <ul>
-                                <li>Étude et déploiement d’un IaaSdevstack</li>
+                                <li>Étude et déploiement d’un IaaS(devstack)</li>
                                 <li>Analyse, modélisation de plusieurs projets de développement</li>
                                 <li>Etude et déploiement de la solution open source de gestion des identités et d’accès(KeyCloack) </li>
                             </ul>

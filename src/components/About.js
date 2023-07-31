@@ -1,6 +1,7 @@
 import React from 'react';
 import Profil from './images/profil.png';
 import './About.css';
+import * as FaIcons from "react-icons/fa";
 
 function About(){
     return (
@@ -10,8 +11,20 @@ function About(){
                     <img src={Profil} width="200px" alt="profil"/>
                 </div>
                 <div>
-                    <h2> Darix SAMANI SIEWE</h2>
+                    <h2> Darix SAMANI</h2>
                     <em> Networks and Telecommunications Engineer  | junior Software Engineer</em>
+                </div>
+                <div className="social_network">
+                    <a href = "https://www.linkedin.com/in/darix-samani">
+                        <FaIcons.FaTwitter />
+                    </a>
+                    <a href = "https://www.linkedin.com/in/darix-samani">
+                        <FaIcons.FaLinkedinIn />
+                    </a>
+
+                    <a href='https:www.github.com/darixsamani'>
+                        <FaIcons.FaGithub />
+                    </a>
                 </div>
             </div>
             <section className="about-pre">
@@ -37,7 +50,7 @@ function About(){
                         <h3>Programming Languages </h3>
                         <ul>
                             <li>Python</li>
-                            <li>Typescript</li>
+                            <li>Javascript</li>
                             <li>Golang</li>
                             <li>Pharo</li>
                             <li>Dart</li>
@@ -51,6 +64,7 @@ function About(){
                             <li>Express.js</li>
                             <li>Flask</li>
                             <li>FastAPI</li>
+                            <li>Flutter</li>
                         </ul>
                     </div>
                     
@@ -62,7 +76,6 @@ function About(){
                             <li>Redis</li>
                             <li>Neo4j</li>
                             <li>Cassandra</li>
-                            <li>BaseX</li>
                             <li>SQLite</li>
                         </ul>
                     </div>
@@ -72,7 +85,6 @@ function About(){
                             <li>Docker</li>
                             <li>Shell/Bash/Zsh</li>
                             <li>Git</li>
-                            <li>Amazon Web Service</li>
                             <li>CI/CD</li>
                             <li>OpenStack</li>
                             <li>Kubernete</li>
