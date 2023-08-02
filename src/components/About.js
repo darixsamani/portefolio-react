@@ -2,6 +2,7 @@ import React from 'react';
 import Profil from './images/profil.png';
 import './About.css';
 import * as FaIcons from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 function About(){
     return (
@@ -15,6 +16,8 @@ function About(){
                     <em> Networks and Telecommunications Engineer  | junior Software Engineer</em>
                 </div>
                 <div className="social_network">
+
+                    <IconContext.Provider value = {{size: '35px'}}>
                     <a href = "https://www.linkedin.com/in/darix-samani">
                         <FaIcons.FaTwitter />
                     </a>
@@ -25,6 +28,9 @@ function About(){
                     <a href='https:www.github.com/darixsamani'>
                         <FaIcons.FaGithub />
                     </a>
+
+                    </IconContext.Provider>
+                    
                 </div>
             </div>
             <section className="about-pre">
