@@ -53,7 +53,7 @@ Heroku , Dart , Reactive programming
                             <ul>
                                 <li>Étude et déploiement d’un IaaS(devstack)</li>
                                 <li>Analyse, modélisation de plusieurs projets de développement</li>
-                                <li>Etude et déploiement de la solution open source de gestion des identités et d’accès(KeyCloack) </li>
+                                <li>Etude et déploiement de la solution open source de gestion des identités et d’accès(KeyCloack) sur un cluster Kubernetes </li>
                             </ul>
                             <span>
                                 Technologies utilisees : KeyCloack, Devstack, management de projet
