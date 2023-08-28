@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Headers from './components/Headers';
 import './App.css';
 import Footer from './components/footers';
+import Projects from './components/projects';
 
 function App(){
   return(
@@ -18,6 +19,7 @@ function App(){
         <div className="boby">
             <Route exact path="/" component={Home} />
             <Route path="/resume" component={Resume} />
+            <Route path="/projects" component={Projects} />
         </div>
       </Switch>
       

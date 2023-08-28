@@ -9,7 +9,7 @@ import {Skeleton} from 'antd';
 
 render(
         <React.StrictMode>
-             <Suspense fallback={<Skeleton active />}>
+             <Suspense fallback={<Skeleton active/>}>
                 <App />
             </Suspense>
         </React.StrictMode>
