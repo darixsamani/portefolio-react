@@ -13,9 +13,7 @@ function App(){
         <div className="main">
             <Headers />
         </div>
-
-
-      
+        
       <Switch>
         <div className="boby">
             <Route exact path="/" component={Home} />
