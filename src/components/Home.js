@@ -74,6 +74,7 @@ function Home(){
                             <li>Django</li>
                             <li>Express.js</li>
                             <li>Flask</li>
+                            <li>ReactJs</li>
                             <li>FastAPI</li>
                             <li>Flutter</li>
                         </ul>
