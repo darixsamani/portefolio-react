@@ -3,6 +3,8 @@ import Profil from './images/profil.png';
 import './Home.css';
 import * as FaIcons from "react-icons/fa";
 import { IconContext } from "react-icons";
+import tools  from './datas';
+
 
 function Home(){
     return (
@@ -57,51 +59,26 @@ function Home(){
                     <h2>Tools & Technologies</h2>
                 </div>
                 <div className="tools">
-                    <div >
-                        <h3>Programming Languages </h3>
-                        <ul>
-                            <li>Python</li>
-                            <li>Javascript</li>
-                            <li>Golang</li>
-                            <li>Pharo</li>
-                            <li>Dart</li>
-                            <li>C/C++</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>Web Frameworks </h3>
-                        <ul>
-                            <li>Django</li>
-                            <li>Express.js</li>
-                            <li>Flask</li>
-                            <li>ReactJs</li>
-                            <li>FastAPI</li>
-                            <li>Flutter</li>
-                        </ul>
-                    </div>
-                    
-                    <div>
-                        <h3> Databases </h3>
-                        <ul>
-                            <li>PostgreSQL</li>
-                            <li>Mongodb</li>
-                            <li>Redis</li>
-                            <li>Neo4j</li>
-                            <li>Cassandra</li>
-                            <li>SQLite</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3> DevOps </h3>
-                        <ul>
-                            <li>Docker</li>
-                            <li>Shell/Bash/Zsh</li>
-                            <li>Git</li>
-                            <li>CI/CD</li>
-                            <li>OpenStack</li>
-                            <li>Kubernetes</li>
-                        </ul>
-                    </div>
+
+                    {
+                        tools.map((element, i) => {
+
+                        return (
+                        <div key={i}>
+                            <h3>{element.name}</h3>
+                                <ul>
+                                    {element.items.map((elm, j) => {
+                                        
+                                        return ( <li key={j}>{elm}</li>)
+                                    })
+                                    }
+                                </ul>
+                        </div>
+                        )
+
+                            
+
+                    })}
                 </div>
                 </section>
 
