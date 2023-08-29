@@ -3,8 +3,7 @@ import Profil from './images/profil.png';
 import './Home.css';
 import * as FaIcons from "react-icons/fa";
 import { IconContext } from "react-icons";
-import tools  from './datas';
-
+import {whatido, tools} from "./datas"
 
 function Home(){
     return (
@@ -87,65 +86,26 @@ function Home(){
                         <h2>WHAT I DO</h2>
                     </div>
                     <div className="whatido">
-                        <div className="card-about">
-                            <div>
+        
+                        {whatido.map((element, index) =>{
+                            return (
+                            <div className="card-about" key={index}>
+                                <div>
 
+                                </div>
+                                <div>
+                                    <h3>{element.title}</h3>
+                                </div>
+                                <div>
+                                    <p>
+                                        {element.content}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <h3>Competive  Programmer</h3>
-                            </div>
-                            <div>
-                                <p>
-                                    I am a Competive Programmer with handles on online judges: HackerRank, Tryhackme, CodeWars                                </p>
-                            </div>
-                        </div>
-
-                        <div className="card-about">
-                            <div>
-
-                            </div>
-                            <div>
-                                <h3>Full Stack Developer</h3>
-                            </div>
-                            <div>
-                                <p>
-                                    I am familiar and experienced in tech stack.
-                                    ReactJs, FastAPI, Flutter etc...
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="card-about">
-                            <div>
-
-                            </div>
-                            <div>
-                                <h3>Data Science</h3>
-                            </div>
-                            <div>
-                                <p>
-                                    I have working experience in Machine Learning, Deep learning(Computer Vision) and Natural Language Processing.
-                                    Check out my work under Project section
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="card-about">
-                            <div>
-
-                            </div>
-                            <div>
-                                <h3>Technical Writer</h3>
-                            </div>
-                            <div>
-                                <p>
-                                    I wrote Technical articles for 
-                                </p>
-                            </div>
-                        </div>
-
+                            )
+                        })}
                     </div>
-                    
+                        
                 </section>
             <div>
                 <div class="loader">Chargement...</div>
