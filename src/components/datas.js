@@ -8,7 +8,7 @@ export const tools = [
     },
     {
         "name": "Web Frameworks",
-        "items" : ["FastAPI", "Django", "Express.js", "Flask", , "ReactJs", "Flutter"]
+        "items" : ["FastAPI", "Django", "Express.js", "Flask" , "ReactJs", "Flutter"]
     },
     {
         "name": "Databases",
