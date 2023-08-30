@@ -3,7 +3,7 @@ export const tools = [
 
     {
         "name" : "Programming Languages ",
-        "items": ["python", "JavaScrip", "Golang", "Pharo", "Dart", "C/C++"]
+        "items": ["python", "JavaScript", "Golang", "Pharo", "Dart", "C/C++"]
 
     },
     {
