@@ -26,7 +26,7 @@ function Home(){
                         <FaIcons.FaLinkedinIn />
                     </a>
 
-                    <a href='https:www.github.com/darixsamani'>
+                    <a href="https://www.github.com/darixsamani">
                         <FaIcons.FaGithub />
                     </a>
 
