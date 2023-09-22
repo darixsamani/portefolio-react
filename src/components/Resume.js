@@ -31,7 +31,7 @@ function Resume(){
                                 <li>Verification service</li>
                             </ul>
                             <span>
-                            Technologies utilisées : FastAPI , Python , Flutter , PostgreSQL
+                            Technologies utilisées : FastAPI , Python , PostgreSQL
                             </span>
                         </div>
 
