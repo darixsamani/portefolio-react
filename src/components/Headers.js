@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Headers.css';
-import Profil from './images/me.png';
+import Profil from './images/moi.png';
 import {Link} from "react-router-dom";
 
 function Headers(){

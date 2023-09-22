@@ -6,14 +6,40 @@ function Resume(){
         <div>
             <section className="exp-pro">
                 <div>
-                    <h1>Experience Professionnel</h1>
+                    <h1>Expérience Professionnelle</h1>
                     <hr></hr>
                 </div>
                 <div className="container-card">
+
+                <div className="card">
+                        <div>
+                            <div className="card-head">
+                                <h3>Python Backend Developer</h3>
+                                <p>juin 2023 - présent</p>
+                            </div>
+                            <div>
+                                <em>SAMANI ENGINEERING</em>
+                            </div>
+
+
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Développement backend d'une application de signature digitale</li>
+                                <li>User Service</li>
+                                <li>Signature service</li>
+                                <li>Verification service</li>
+                            </ul>
+                            <span>
+                            Technologies utilisées : FastAPI , Python , Flutter , PostgreSQL
+                            </span>
+                        </div>
+
+                    </div>
                     <div className="card">
                         <div>
                             <div className="card-head">
-                                <h3>stage Ingenieur</h3>
+                                <h3>stage Ingénieur | Full Stack Developer</h3>
                                 <p>fev 2022 - jun 2022</p>
                             </div>
                             <div>
@@ -26,11 +52,11 @@ function Resume(){
                             <ul>
                                 <li>Développement d’une application mobile de drive test des
 réseaux d’opérateurs</li>
-                                <li>Développement d’une API pour collecter les données récupérées
-                                        par l’application mobile</li>
+                                <li>Développement d’une API pour collecter les données récupérées 
+                                    par l’application mobile</li>
                             </ul>
                             <span>
-                                Technologies utilisees : FastAPI , Python , Flutter , MongoDB , SQLite ,
+                            Technologies utilisées : FastAPI , Python , Flutter , MongoDB , SQLite ,
 Heroku , Dart , Reactive programming
                             </span>
                         </div>
@@ -53,10 +79,10 @@ Heroku , Dart , Reactive programming
                             <ul>
                                 <li>Étude et déploiement d’un IaaS(devstack)</li>
                                 <li>Analyse, modélisation de plusieurs projets de développement</li>
-                                <li>Etude et déploiement de la solution open source de gestion des identités et d’accès(KeyCloack) sur un cluster Kubernetes </li>
+                                <li>Étude et déploiement de la solution open source de gestion des identités et d’accès(KeyCloack) sur un cluster Kubernetes </li>
                             </ul>
                             <span>
-                                Technologies utilisees : KeyCloack, Devstack, management de projet
+                            Technologies utilisées : KeyCloack, Devstack, Management de projet
                             </span>
                         </div>
 
@@ -75,11 +101,10 @@ Heroku , Dart , Reactive programming
                             <ul>
                                 <li>Développement des sites en HTML5, CSS3, Javascript</li>
                                 <li>Analyse et Modélisation d’un projet avec UML</li>
-                                <li>Apprentissage de la programmation réactive en dart et le ges-
-tionnaire d’etat Bloc</li>
+                                <li>Apprentissage de la programmation réactive en dart et le gestionnaire d’etat Bloc</li>
                             </ul>
                             <span>
-                                Technologies utilisees : UML, HTML5, CSS3
+                                Technologies utilisées : UML, HTML5, CSS3
                             </span>
                         </div>
 
@@ -88,18 +113,18 @@ tionnaire d’etat Bloc</li>
             </section>
             <section className="exp-pro">
                 <div>
-                    <h1>Education</h1>
+                    <h1>Éducation</h1>
                     <hr></hr>
                 </div>
                 <div className="container-card">
                     <div className="card">
                         <div>
                             <div className="card-head">
-                                <h3>Ingenieur Reseaux & Telecommunication</h3>
-                                <p> 2017 - 2022 <b>(en cour)</b></p>
+                                <h3>Ingénieur Réseaux & Télécommunication</h3>
+                                <p> 2017 - 2022 </p>
                             </div>
                             <div>
-                                <em>Ecole National Superieure Polytchenique de Maroua</em>
+                                <em>École Nationale Supérieure Polytechnique de Maroua</em>
                             </div>
                         </div>
                     </div>
@@ -117,7 +142,7 @@ tionnaire d’etat Bloc</li>
                                 
                             </div>
                             <div>
-                                <em>Lycee De Bafang Rural</em>
+                                <em>Lycée De Bafang Rural</em>
                             </div>
                         </div>
                     </div>
