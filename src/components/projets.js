@@ -1,13 +1,13 @@
 import React from "react"
 
-function Projects(){
+function Projets(){
 
 
     return (
         <div>
-            Section projects
+            Section projets
         </div>
     )
 }
 
-export default Projects
+export default Projets
