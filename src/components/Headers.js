@@ -13,7 +13,7 @@ function Headers(){
             <nav>
                 <ul className="navigation" role="navigation">
                     <li><NavLink to="/#About">About</NavLink></li>
-                    <li><NavLink to="/resume">Resume</NavLink></li>
+                    {/* <li><NavLink to="/resume">Resume</NavLink></li> */}
                     <li><NavLink to="/projects">Projets</NavLink></li>
             
                 </ul>

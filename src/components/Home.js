@@ -13,8 +13,8 @@ function Home(){
                     <img src={Profil} width="200px" alt="profil"/>
                 </div>
                 <div>
-                    <h2> Darix SAMANI</h2>
-                    <em> Networks and Telecommunications Engineer  | junior Software Engineer</em>
+                    <h2> Darix SAMANI SIEWE</h2>
+                    <em>junior Software Engineer</em>
                 </div>
                 <div className="social_network">
 
