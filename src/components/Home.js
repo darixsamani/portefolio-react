@@ -2,6 +2,8 @@ import React from 'react';
 import Profil from './images/profil.png';
 import './Home.css';
 import * as FaIcons from "react-icons/fa";
+
+import {BiWorld} from "react-icons/bi" ;
 import { IconContext } from "react-icons";
 import {whatido, tools} from "./datas"
 
@@ -10,11 +12,11 @@ function Home(){
         <div className="about-main">
             <div className="about-head">
                 <div>
-                    <img src={Profil} width="200px" alt="profil"/>
+                    <img src={Profil} width="200px" height="200px" alt="profil"/>
                 </div>
                 <div>
-                    <h2> Darix SAMANI SIEWE</h2>
-                    <em>junior Software Engineer</em>
+                    <h2> Darix SAMANI</h2>
+                    {/* <em>junior Software Engineer</em> */}
                 </div>
                 <div className="social_network">
 
@@ -33,12 +35,15 @@ function Home(){
                     <a href='https://www.hackerrank.com/darix15'>
                         <FaIcons.FaHackerrank />
                     </a>
+                    <a href='http://bit.ly/3rcU3Cd'>
+                        <BiWorld />
+                    </a>
 
                     </IconContext.Provider>
                     
                 </div>
             </div>
-            <section className="about-pre" id='ABOUT'>
+            {/* <section className="about-pre" id='ABOUT'>
                 <div className="titre-about">
                     <h2 >About Me</h2>
                 </div>
@@ -52,7 +57,7 @@ function Home(){
 
                 </div>
                 
-            </section>
+            </section> */}
             <section >
                 <div style={{marginTop:"50px"}}> 
                     <h2>Tools & Technologies</h2>

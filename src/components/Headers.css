@@ -21,30 +21,3 @@ text-align: center;
 color: white;
 font-weight: 800;
 }
-
-/* Écrans moyens */
-/* 
-@media (max-width: 800px) {
-.navigation {
-justify-content: center; /* 4 */
-/* } */
-
-/* } */
- */
-
-/* Petits écrans */
-@media (max-width: 450px) {
-.navigation {
-flex-flow: column wrap; /* 5 */
-}
-}
-
-/* .navigation {
-opacity: .5;
-transition: opacity 5s;
-}
-.navigation:hover,
-.navigation:focus {
-opacity: 1;
-transition: opacity 300ms;
-} */

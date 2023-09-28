@@ -3,12 +3,13 @@ export const tools = [
 
     {
         "name" : "Programming Languages ",
-        "items": ["python", "JavaScript", "Golang", "Pharo", "Dart", "C/C++"]
+        "items": ["Python", "JavaScript", "Golang", "Dart", "C/C++"]
 
     },
     {
         "name": "Web Frameworks",
-        "items" : ["FastAPI", "Django", "Express.js", "Flask" , "ReactJs", "Flutter"]
+        "items" : ["FastAPI", "ReactJs", "Flutter", "ExpressJS"],
+
     },
     {
         "name": "Databases",
