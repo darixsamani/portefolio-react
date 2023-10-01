@@ -13,7 +13,7 @@ export const tools = [
     },
     {
         "name": "Databases",
-        "items": ["PostgreSQL", "MongoDB", "Neo4j", "Redis", "Cassandra", "RabbitMQ"]
+        "items": ["PostgreSQL", "MongoDB", "Neo4j", "Redis", "Cassandra"]
     },
     {
         "name": "DevOps",

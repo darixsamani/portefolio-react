@@ -41,26 +41,38 @@
 
 .card-about{
     
-    width: 550px;
+    width: 500px;
     border-radius: 7px;
     box-sizing: border-box;
     box-shadow: 0px 0px 4px rgba(153, 212, 104, 0.788);
     box-shadow: 0px 0px 4px #004180;
     overflow-wrap: break-word;
-    padding: 4px 15px 8px 15px;
+    /* padding: 4px 15px 8px 15px; */
+
+}
+
+@media (max-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */
+    .card-about{
+        width: 300px;
+    }
 
 }
 
 .card-about p{
-    line-height: 1.65em;
+    line-height: 1.6em;
     word-wrap: break-word;
 }
+
 .about-pre:hover{
     box-shadow: 0px 0px 14px rgba(85, 78, 78, 0.9);
 
     animation: mon-animation 750ms ease-in-out 0.1s;
 }
 @keyframes animation-opacity {
+from {
+    opacity: 100;
+}
 to {
 opacity: 0;
 }
@@ -79,11 +91,11 @@ opacity: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
     margin-top: 35px;
 }
 
-/* @keyframes mon-animation {
+@keyframes mon-animation {
 from {
 color: deepskyblue;
 }
@@ -93,7 +105,7 @@ color: tomato;
 50% {
 color: lightgreen;
 }
-} */
+}
 
 
 .tools div{

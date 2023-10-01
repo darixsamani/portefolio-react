@@ -36,28 +36,14 @@ function Home(){
                         <FaIcons.FaHackerrank />
                     </a>
                     <a href='http://bit.ly/3rcU3Cd'>
-                        <BiWorld />
+                        < BiWorld />
                     </a>
 
                     </IconContext.Provider>
                     
                 </div>
             </div>
-            {/* <section className="about-pre" id='ABOUT'>
-                <div className="titre-about">
-                    <h2 >About Me</h2>
-                </div>
-                <div className="about-me">
-                    <p>
-                    I'm passionate about programming, and I'm always eager to learn new technologies 
-                    and techniques to enhance my skills. I'm excited to work on challenging projects 
-                    and contribute to the development of innovative software solutions.
-
-                    </p>
-
-                </div>
-                
-            </section> */}
+            
             <section >
                 <div style={{marginTop:"50px"}}> 
                     <h2>Tools & Technologies</h2>
