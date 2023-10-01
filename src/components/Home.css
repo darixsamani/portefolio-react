@@ -37,6 +37,8 @@
     flex-wrap: wrap;
     gap: 2em;
     justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
 
 .card-about{
@@ -93,6 +95,11 @@ opacity: 0;
     justify-content: center;
     gap: 1em;
     margin-top: 35px;
+}
+
+.tools div ul{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @keyframes mon-animation {
