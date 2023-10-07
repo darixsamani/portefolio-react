@@ -22,9 +22,6 @@ function Home(){
 
                     <IconContext.Provider value = {{size: '35px'}}>
                     <a href = "https://www.linkedin.com/in/darix-samani">
-                        <FaIcons.FaTwitter />
-                    </a>
-                    <a href = "https://www.linkedin.com/in/darix-samani">
                         <FaIcons.FaLinkedinIn />
                     </a>
 
