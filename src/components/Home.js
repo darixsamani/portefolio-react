@@ -32,7 +32,7 @@ function Home(){
                     <a href='https://www.hackerrank.com/darix15'>
                         <FaIcons.FaHackerrank />
                     </a>
-                    <a href='http://bit.ly/3rcU3Cd'>
+                    <a href='http://bit.ly/3FDgpER'>
                         < BiWorld />
                     </a>
 
