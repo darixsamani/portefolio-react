@@ -86,7 +86,7 @@ function Home(){
                                 </div>
                                 <div>
                                     <p>
-                                        {element.content}
+                                        {element.content} <a href= 'https://irex.uat.aretex.ca/blog?blogger=dsamani' >IREX BLOG </a>
                                     </p>
                                 </div>
                             </div>

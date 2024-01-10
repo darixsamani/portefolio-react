@@ -38,7 +38,7 @@ export const whatido = [
     },
     {
         "title": "Technical Writer",
-        "content": "I wrote Technical articles for IREX on <a href= 'https://irex.uat.aretex.ca/blog?blogger=dsamani' >IREX BLOG </a> "
+        "content": "I wrote Technical articles for IREX on "
     }
 
    
