@@ -86,7 +86,7 @@ function Home(){
                                 </div>
                                 <div>
                                     <p>
-                                        {element.content} { index === (whatido.length - 1)? <a href= 'https://irex.uat.aretex.ca/blog?blogger=dsamani' target='_blank'>IREX BLOG </a>: ""}
+                                        {element.content} { index === (whatido.length - 1)? <a href= 'https://irex.uat.aretex.ca/blog?blogger=dsamani' target='_blank' rel="noopener noreferrer">IREX BLOG </a>: ""}
                                     </p>
                                 </div>
                             </div>
