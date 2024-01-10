@@ -21,18 +21,18 @@ function Home(){
                 <div className="social_network">
 
                     <IconContext.Provider value = {{size: '35px'}}>
-                    <a href = "https://www.linkedin.com/in/darix-samani" target='_blank'>
+                    <a href = "https://www.linkedin.com/in/darix-samani" target='_blank' rel="noopener noreferrer">
                         <FaIcons.FaLinkedinIn />
                     </a>
 
-                    <a href="https://www.github.com/darixsamani" target='_blank'>
+                    <a href="https://www.github.com/darixsamani" target='_blank' rel="noopener noreferrer">
                         <FaIcons.FaGithub />
                     </a>
 
-                    <a href='https://www.hackerrank.com/darix15' target='_blank'>
+                    <a href='https://www.hackerrank.com/darix15' target='_blank' rel="noopener noreferrer">
                         <FaIcons.FaHackerrank />
                     </a>
-                    <a href='http://bit.ly/3FDgpER' target='_blank'>
+                    <a href='http://bit.ly/3FDgpER' target='_blank' rel="noopener noreferrer">
                         < BiWorld />
                     </a>
 
